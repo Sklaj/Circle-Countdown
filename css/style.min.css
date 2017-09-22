@@ -1,0 +1,91 @@
+.no-js {
+  height: 0px;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #151c27;
+  font-family: 'Cinzel', serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.container::after {
+  margin: 0;
+  padding: 0;
+  content: "";
+  clear: both;
+}
+
+.container .row {
+  display: block;
+  margin-top: 50px;
+  height: 132px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.2);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c374a+0,252e3e+19,1f2835+42,1e2633+100 */
+  background: #2c374a;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #2c374a 0%, #252e3e 19%, #1f2835 42%, #1e2633 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c374a', endColorstr='#1e2633',GradientType=0 );
+  /* IE6-9 */
+}
+
+.container .imgs {
+  display: inline-block;
+  float: left;
+  height: 132px;
+  width: 30%;
+  background-image: url("../img/2.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.container .txt {
+  display: inline-block;
+  box-sizing: border-box;
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.container .txt p {
+  color: white;
+  font-family: 'Cinzel';
+  font-size: 20px;
+}
+
+.container .counter {
+  display: inline-block;
+  box-sizing: border-box;
+  float: left;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 25px;
+  color: white;
+  font-family: 'Cinzel';
+  font-size: 28px;
+  text-align: center;
+}
+
+.container canvas {
+  position: absolute;
+  top: -10px;
+  float: right;
+}
+
+.container .space {
+  width: 10%;
+}
+
+/*# sourceMappingURL=style.min.css.map */
